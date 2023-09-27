@@ -1,0 +1,20 @@
+from django.contrib import admin
+from .models import *
+
+admin.site.register(cidade)
+admin.site.register(pessoas)
+admin.site.register(ocupacao)
+admin.site.register(instituicao)
+admin.site.register(area)
+admin.site.register(cursos)
+admin.site.register(periodo)
+admin.site.register(disciplina)
+admin.site.register(matricula)
+admin.site.register(avaliacoes)
+admin.site.register(frequencia)
+admin.site.register(turmas)
+admin.site.register(frequencia)
+admin.site.register(turmas)
+admin.site.register(ocorrencias)
+admin.site.register(disciplinasporcursos)
+admin.site.register(tipoavaliacao)
